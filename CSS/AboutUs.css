@@ -1,0 +1,97 @@
+/* by nora al Babtain */
+
+
+/*all paragraphs are centered*/
+  .paragraphs {
+
+    text-align: justify;;
+    font-family: Arial;
+    font-size: medium;
+    text-shadow:1px 1px  lightgrey;
+
+    }
+/*Main heading of the page*/
+  h2 {font-family: Courier New; text-align: center; }
+
+
+
+
+/* to write on the bottom left of the header image */
+  /* Container holding the image and the text */
+    .imgtextcont{  position: relative;}
+  /*sizeoftheimage*/
+    .headerimg{
+      width: 1330px; height: 600px;
+    }
+  /* Bottom left text */
+    .bottom-left {
+        position: absolute;
+        bottom: 7px;
+        left: 15px;
+    }
+/*the story section*/
+  /*the white box containing the image with shadow*/
+   div.leftalign{
+    float:left;
+   }
+   div.whiteboxwithshadow {
+    width: auto;
+    height:auto ;
+    padding: 10px;
+
+    background-color: white;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    /*creator container to hold the image */
+  .creatorcont{
+     position: relative;
+     width: 408px;
+     height: 396px;
+     padding: 10px;
+     background-color: white;
+     padding-left: 10px;
+     margin: 0 auto ;
+      display: block;
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /*the creator image inside the container*/
+  .creatorimg{
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+  /*The overlay layer on top of the image when hovered to show the creator name */
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 418px;
+  width: 408px;
+  padding-left: 20px;
+  opacity: 0;
+  transition: 1s ease-in;
+  background-color: #cfaf96;
+  }
+  /*to change the opacity of the creator containor to 80*/
+  .creatorcont:hover .overlay{
+    opacity:80;
+  }
+  /*creator name on top of the overlay layer*/
+  .creatorname{
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+
+  table.center1{
+     margin-left:auto;
+    margin-right:auto;}
+
+/**/

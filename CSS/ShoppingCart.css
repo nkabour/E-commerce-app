@@ -1,0 +1,164 @@
+/* by asma yamani */
+html {
+  height: 100%;
+}
+.ShoppingCartTable table img {
+  float: left;
+  margin: 20px;
+  margin-right: 50px
+}
+
+
+.ShoppingCartTable h2 {
+  display: inline;
+  text-align: left;
+
+}
+
+.ItemInfo {
+  width: 80%;
+}
+
+.clearSpace {
+  margin-top: 50px
+}
+
+.ShoppingCartTable table {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+  border-spacing: 0px;
+}
+.ShoppingCartTable table td {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding:  10px;
+  height: 100%;
+
+}
+
+.UnitPrice {
+  float: right;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+.ItemQuantityANDPrice {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.deleteItem {
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+
+}
+.deleteItem button{
+  display: none;
+  padding: none;
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  font-size: 12px;
+  font-family: Courier New;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.deleteItem:hover button{
+  display: block;
+  padding: none;
+  color: white;
+  background-color: #ff6f69;
+  outline: inherit;
+  border: none;
+}
+
+.subt{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.stepper {
+  position: relative;
+  top: 0px;
+  margin-top: 0px;
+}
+
+.stepper button  {
+  border: none;
+}
+
+.add:hover:enabled {
+  background-color: #bdfae6;
+}
+.subtract:hover:enabled {
+  background-color: #f7b4b2;
+}
+.pricing {
+  top: 0px;
+  left: 0px;
+  border-color: blue;
+  height: 100%;
+  position: relative;
+}
+.ItemQuantityANDPrice {
+  position: relative;
+  height: 100%;
+
+}
+
+form {
+  position: relative;
+  height: 100%
+}
+
+#actionButtons {
+  margin: 0px auto;
+  text-align: center;
+}
+
+#actionButtons a.button{
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-family: Courier New;
+    background-color: black;
+    padding: 8px;
+}
+
+#actionButtons a:hover {
+  background-color: #bdfae6;
+  color: black;
+}
+
+
+.add {
+  margin:
+  border: 0px;
+  color: black;
+}
+.add:hover {
+  color: black;
+}
+.des{
+  text-align: left;
+
+}

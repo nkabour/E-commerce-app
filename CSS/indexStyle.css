@@ -1,0 +1,283 @@
+/* By Raghad Bogery */
+
+
+/* hello username text */
+.Hello{
+  font-family: Courier New;
+  text-align: center;
+  color: #B4D1BD;
+  display: inline-block;
+}
+
+/* colorful shampoo center pic */
+.imgMain {
+  width: 800px;
+  height: 280px;
+   display: block;
+    margin: 0 auto;
+  }
+/* quality of shampoo pic */
+.logos{
+   width: 450px;
+   height: 150px;
+   display: block;
+   margin: 0 auto;
+ }
+
+
+/* add to my mixs img in link */
+.add{
+  background: url(add.png) no-repeat;
+
+  }
+
+/* start creating shampoo img in link */
+.start{
+  background: url(start.png) no-repeat;
+  width: 550px;
+}
+
+
+/*link to other pager as buttons*/
+.AddMixbutton {
+    background-color: #AACCE3;
+    border: none;
+    font-family: Courier New;
+    position: relative;
+    display:  block;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    font-size: 16pt;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 300px;
+
+}
+marquee{
+  overflow: hidden;
+}
+.StartCreatingShampoo {
+    background-color: #AACCE3;
+    border: none;
+    font-family: Courier New;
+    position: relative;
+    display:  block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding-left: 30px;
+    font-size: 16pt;
+    width: 300px;
+    text-align: center;
+
+
+}
+/* links with img*/
+.buttonLink{
+  color: black;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+
+
+
+}
+.buttonLink:hover{
+  text-decoration: underline;
+  color: white;
+}
+.AddMixbutton:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+
+/*--------------------links style stop here----------------------------------*/
+
+
+/* slider */
+
+/* Main container of all slider divs */
+.container {
+
+  width:1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* slider container to hide other pics*/
+.slideshow_wrapper {
+  width:1500px;
+  height:600px;
+  overflow: hidden;
+
+
+}
+/* slide show of pics properties */
+.slideshow {
+  width:4500px;
+  height:500px;
+  margin: 0 0 0 -2000px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration:30s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction: forward;
+
+
+}
+/* h1 in slide show */
+.slideshow h1{
+  color: black;
+  margin-top: -400px;
+  padding-left: 500px;
+}
+
+/* h2 in slide show */
+.slideshow h2{
+
+    padding-left: 580px;
+  }
+
+
+/* the table of mixture content*/
+/* shampoo name in table */
+.shampooName{
+  font-size: 16pt;
+  font-style: italic;
+}
+
+  .slideshow table td img {
+    width: 30px;
+     height: 30px;
+     position: relative;
+
+
+  }
+
+  .slideshow table td {
+    text-align: center;
+    width: 85px;
+    height: 30px;
+  }
+
+
+
+  .slideshowtable  {
+    margin: 0 auto;
+    margin-top: -400px;
+    z-index: 1;
+    margin-bottom: 50px;
+
+  }
+
+  /* -------------- table end here ----------------*/
+
+  /* slide 1: orange shampoo */
+  .slide1{
+    background-color: #FFF7EB;
+    top: 65px;
+    width:1500px;
+    height: 400px;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    -webkit-box-shadow:0px 0px 100px 20px #fef5e9 ;
+    -moz-box-shadow:0px 0px 100px 20px #fef5e9 ;
+    box-shadow:0px 0px 100px 20px #fef5e9 ;
+
+
+  }
+
+
+
+/* slide 2: blue shampoo */
+.slide2{
+  background-color: #EBF3FF;
+  top: 65px;
+  width:1500px;
+  height: 400px;
+  position:relative;
+  float:left;
+  overflow:hidden;
+  -webkit-box-shadow:0px 0px 100px 20px #e5effe ;
+  -moz-box-shadow:0px 0px 100px 20px #e5effe ;
+  box-shadow:0px 0px 100px 20px #e5effe ;
+
+}
+/* slide 3: green shampoo */
+.slide3{
+  width:1500px;
+  height: 400px;
+  position:relative;
+  top: 65px;
+  float:left;
+  overflow:hidden;
+  background-color: #F3FFF7;
+  -webkit-box-shadow:0px 0px 100px 20px #f0fff5 ;
+  -moz-box-shadow:0px 0px 100px 20px #f0fff5 ;
+  box-shadow:0px 0px 100px 20px #f0fff5 ;
+
+}
+
+
+/* sslides shampoo pic */
+.Shampooimg{
+  width:160px; height:400px;
+  padding-left: 300px;
+}
+
+/* slider postions of sliding pics */
+@-webkit-keyframes slide_animation {
+
+
+      0% {margin-left:0px;}
+    	17% {margin-left:0px;}
+    	20% {margin-left:-1500px;}
+    	37% {margin-left:-1500px;}
+    	40% {margin-left:-3000px;}
+    	57% {margin-left:-3000px;}
+      67% {margin-left:-1500px;}
+      77% {margin-left:-1500px;}
+      87% {margin-left:0px;}
+      97% {margin-left:0px;}
+      100% {margin-left:00px;}
+
+
+
+
+  }
+
+
+
+/* add mix error pop up*/
+.errorDiv{
+  background: #C7FCEC;
+  text-align: center;
+  font-size: 24pt;
+  transition: height 400ms cubic-bezier(0.72, -0.25, 0.4, 1.2);
+  margin: 0 auto;
+  position: absolute;
+  left: -400px;
+}
+.errorDiv{
+ font-size: 24pt;
+}
+
+/* add mix button in slider */
+.addmix{
+position: absolute;
+bottom: 1.5rem;
+right: 1.5rem;
+height: 40px;
+margin-top: 1.5rem;
+padding: 0 1rem;
+background: transparent;
+color: #eee;
+font-weight: 700;
+text-transform: uppercase;
+border: 2px solid #eee;
+cursor: pointer;
+border-radius: 20px;
+margin: 0 auto;
+}

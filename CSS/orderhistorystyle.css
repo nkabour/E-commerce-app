@@ -1,0 +1,58 @@
+/* by nada al kabour */
+
+
+
+
+/*Box styling*/
+  .Big_box {
+
+  position: relative;
+  width: 100%;
+  background: transparent;
+  margin-bottom: 100px;
+
+  }
+
+  /*table style*/
+
+  .historytable table {
+  margin: 0 auto;
+ margin-bottom: 90px;
+  }
+
+  .historytable thead th {
+
+  padding-left: 50px;
+  padding-right:50px;
+  border-bottom: 1px solid #ccc;
+
+  }
+
+  .historytable td {
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+
+  }
+
+   .even {
+
+  background-color: white;
+
+  }
+
+  .odd  {
+
+  background-color: #fafafa;
+
+
+  }
+
+  #Order_item {
+
+    text-align: left;
+  }

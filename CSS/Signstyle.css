@@ -1,0 +1,119 @@
+/* By Raghad Bogery */
+
+/* main box container for sign in */
+  .signDiv{
+  margin: 0 auto;
+  margin-bottom: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: remy(3px);
+  box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);
+}
+/* overlay color on pic */
+.sign__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.26);
+}
+/* sub box 1 of pic */
+.pic_container {
+  margin-top: 100px;
+  color: #fff;
+  position: relative;
+  padding: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: url(shampoo.JPEG);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 450px;
+  height: 460px;
+}
+
+/* text on top of pic */
+.pic__text {
+  z-index: 2;
+}
+
+.pic__text h1,h2 {
+  font-weight: 300;
+  color: rgba(255,255,255,1);
+  text-align: center;
+}
+
+/* sub box 2 form */
+.sign__form {
+  margin-top: 100px;
+  padding: 2.5rem;
+  background: #fafafa;
+  width: 400px;
+  height: 400px;
+}
+/* form input labels */
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #B4B4B2;
+  text-align: left;
+  display: block;
+  font-weight: 500;
+  margin-left: 60px;
+
+}
+
+/* form input handlers */
+.form-input {
+  width: 280px;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  display: block;
+  &:focus {border-color: #111;}
+
+}
+/* form input password and text style */
+[type="text"] {color: #111;}
+[type="password"] {color: #111;}
+
+/* form submit button */
+.btn_form {
+  padding: .5rem 2.5rem;
+  margin-top: 40px;
+  font-size: .95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: remy(35px);
+
+}
+/* form "are u a member?" link style */
+.link {
+  font-size: .8rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #999;
+  &:focus,
+  &:hover {color: darken(#999, 13%);}
+}
+/* error p style */
+.error{
+  color: #900C3F;
+  text-align: center;
+
+
+
+}

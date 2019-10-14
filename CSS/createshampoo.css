@@ -1,0 +1,150 @@
+/* By Nora Al Babtain */
+
+
+/*all paragraphs are centered*/
+  p {text-align: center;}
+/*the headings in each form tab*/
+  h4 { font-family: Courier New; color:grey; font-size: 20px;}
+/* Main header in black*/
+  h2 {font-family: Courier New; text-align: center;}
+/*Green small header*/
+  h3 {font-family: Courier New; text-align: center; color: #B4D1BD;}
+
+/* slider */
+
+/* Main container to hold the form */
+.container {
+
+  width:1000px;
+  margin: auto;
+  padding: 50px;
+  background-color: #c3ccca
+}
+
+/* slider postions of sliding pics */
+  @-webkit-keyframes slide_animation {
+
+      0%{margin-left: 0px;}
+    	17%{margin-left: 0px;}
+    	20%{margin-left: -1500px;}
+    	37%{margin-left: -1500px;}
+    	40%{margin-left: -3000px;}
+    	57%{margin-left: -3000px;}
+      67%{margin-left: -1500px;}
+      77%{margin-left: -1500px;}
+      87%{margin-left: 0px;}
+      97%{margin-left: 0px;}
+      100%{margin-left:00px;}
+
+
+}
+
+
+  a {
+      text-decoration: none !important;
+      -webkit-transition: all 225ms ease;
+      -moz-transition: all 225ms ease;
+      transition: all 225ms ease;
+  }
+  section {
+      margin-bottom: 5000px;
+  }
+
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 80px;
+  padding: 80px;
+  width: auto;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 5px;
+  width: 100px;
+  font-size: 15px;
+  font-family: Arial;
+  color: black;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+
+
+
+#super-container {
+    background: #e3e3e3;
+    text-align: center;
+     width: auto;
+}
+#super-container a {
+    padding: 30px;
+    display: block;
+}
+
+.scotch-panel {
+    background: #444;
+}
+.scotch-panel h2 {
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+}
+#super-container a {
+    color: #222;
+    width: auto;
+    background: transparent;
+}
+#super-container a:hover {
+    background: #737373;
+}
+
+/*to center tables*/
+ table.center1{
+     margin-left:auto; 
+    margin-right:auto;}
+
+/*button shapes*/
+.buttonform{
+  padding: .5rem 2.5rem;
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: remy(35px);
+}

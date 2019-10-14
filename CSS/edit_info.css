@@ -1,0 +1,135 @@
+/* by nada al kabour */
+
+
+
+/* links with img*/
+.inputbtn{
+  color: black;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 50px;
+  text-align: center;
+
+}
+
+/* Body Styling */
+
+
+.form_box {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+
+}
+
+h4 {
+
+text-transform: uppercase;
+font-weight: lighter;
+font-size: 16pt;
+color:white;
+padding: 10px;
+background-color: #111;
+
+
+}
+
+.form-input , .select_input{
+  width: 260px;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  display: block;
+  &:focus {border-color: #111;}
+
+}
+
+.personal_info, .contact_info , .change_pass, .address_info {
+
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    overflow: auto;
+
+}
+
+.personal_info table, .contact_info table, .change_pass table, .address_info table{
+ text-transform: uppercase;
+  color: #111;
+}
+
+.personal_info, .contact_info , .change_pass, .address_info table td {
+  width: auto;
+}
+
+
+
+.btn_form {
+  position: absolute;
+  padding: .5rem 2.5rem;
+  margin-top: 20px;
+  margin-left: 180px;
+  font-size: .95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: remy(35px);
+
+}
+.select_input {
+  color: #fff;
+  background: #ccc;
+
+}
+
+
+.btns {
+
+margin: 0 auto;
+display: inline-block;
+
+}
+
+.btns img {
+  float: left;
+  margin-left: 140px;
+  margin-right: -40px;
+}
+
+.inputbtn   {
+  float: right;
+    border: none;
+    background: transparent;
+    font-family: Courier New;
+    margin: 0 auto;
+    font-size: 30pt;
+    display: block;
+    font-size: 16pt;
+
+}
+
+.inputbtn:hover{    text-decoration: underline;}
+
+textarea {
+
+	border: 2px solid  #ccc;
+	background-position: bottom right;
+
+}
+
+td {
+  margin-bottom: 80px;
+}
